@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import img1 from ''
+import img1 from '../assets/images/icons/watch-series5-logo.png'
+import img2 from '../assets/images/icons/apple-card-logo.png'
 export default class Card1 extends Component {
   render() {
     return (
@@ -29,7 +30,7 @@ export default class Card1 extends Component {
         <div className="right-side-wrapper">
           <div className="top-logo-wrapper">
             <div className="logo-wrapper">
-              <img src="images/icons/apple-card-logo.png" />
+              <img src={img2} />
             </div>
           </div>
           <div className="description-wraper">
