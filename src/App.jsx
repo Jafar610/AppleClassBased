@@ -5,6 +5,8 @@ import MacBook from "./Components/MacBook";
 import Iphone11Pro from "./Components/Iphone11Pro";
 import Iphone11 from "./Components/Iphone11";
 import Card1 from "./Components/Card1";
+import Card2 from "./Components/Card2";
+import Card3 from "./Components/Card3";
 
 export default class App extends Component {
   render() {
@@ -15,6 +17,8 @@ export default class App extends Component {
         <Iphone11Pro />
         <Iphone11 />
         <Card1 />
+        <Card2 />
+        <Card3 />
         <Footer />
       </div>
     );
