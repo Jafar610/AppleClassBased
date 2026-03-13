@@ -3,6 +3,7 @@ import React, { Component } from "react";
 export default class Iphone11 extends Component {
   render() {
     return (
+      <>
         <section className="third-highlight-wrapper">
           <div className="internal-wrapper">
             <div className="title-wraper">iPhone 11</div>
@@ -24,7 +25,7 @@ export default class Iphone11 extends Component {
             </div>
           </div>
         </section>
-
+      </>
     );
   }
 }
