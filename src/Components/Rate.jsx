@@ -5,10 +5,10 @@ export default class Rate extends Component {
     return (
       <>
       <div className='container'>
-        <h1>Rate this mac out of 10</h1>
+        <h1>Please rate this mac out of 10</h1>
         <div className='btn'>
-            <button>Rate Up</button>
-            <button>Rate Down</button>
+            <button className='btn1'>Rate Up</button>
+            <button className='btn2'>Rate Down</button>
         </div>
         <div id='textdisplay'>
             <h2>Average Rating: 5.0</h2>
