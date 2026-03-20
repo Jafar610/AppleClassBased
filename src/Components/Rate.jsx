@@ -16,6 +16,15 @@ export default class Rate extends Component {
     })
   }
 
+
+  decrement = ()=>{
+    this.setState((state)=>{
+      return{
+        rating: state.rating - 1
+      }
+    })
+  }
+
   render() {
     return (
       <>
