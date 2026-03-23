@@ -5,6 +5,7 @@ export default class Rate extends Component {
     super();
     this.state = {
       rating: 5.0,
+      display: "Average Rating:",
     };
   }
 
@@ -13,6 +14,7 @@ export default class Rate extends Component {
       if (state.rating < 10) {
         return {
           rating: state.rating + 1,
+          display: "You rated up the mac to:",
         };
       }
     });
@@ -23,6 +25,7 @@ export default class Rate extends Component {
      if(state.rating > 0){
        return {
         rating: state.rating - 1,
+        display: "You rated down the mac to:",
       };
      }
     });
@@ -42,7 +45,7 @@ export default class Rate extends Component {
             </button>
           </div>
           <div id="textdisplay">
-            <h2>Average Rating: {this.state.rating}</h2>
+            <h2>{this.state.display} {this.state.rating}</h2>
           </div>
         </div>
       </>
